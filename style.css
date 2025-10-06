@@ -1,0 +1,80 @@
+body {
+  font-size: 15pt;
+  background-color: #C4DCFF;
+}
+
+
+
+h1 {
+  font-family: "Times New Roman";
+  margin : auto;
+  padding-top: 20px;
+  font-size: 40px;
+  text-align: center;
+  box-shadow: 100px;
+}
+
+h2 {
+  font-family: "Tahoma";
+  text-align: left;  
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.intro {
+    text-align: justify;
+    font-family: "tahoma";
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: auto;
+}
+
+.email, .insta, .whatsapp, .linkedin {
+  margin-top: 5px;
+  margin-left: 300px;
+  font-size: 20px;
+  text-align: left;
+  background: #fff0ca;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10 px 5 px rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  max-height: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+img {
+  margin-left: 300px;
+  margin-top: 50px;
+  width: 500px;
+}
+
+footer {
+  font-family: "Times New Roman";
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
