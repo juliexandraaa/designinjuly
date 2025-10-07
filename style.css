@@ -10,24 +10,22 @@ h1 {
   font-family: "Times New Roman";
   margin : auto;
   padding-top: 20px;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
 }
 
 h2 {
   font-family: "Tahoma";
   text-align: left;  
-  margin-left: 300px;
-  margin-top: 50px;
-  margin-bottom: 5px;
-  font-size: 25px;
+  margin-left: 300px auto;
+  font-size: 20px;
 }
 
 .intro {
     text-align: justify;
     font-family: "tahoma";
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 18px;
     padding: auto;
     width: 80%;
     max-width: 700px;
@@ -35,7 +33,7 @@ h2 {
 
 .email, .insta, .whatsapp, .linkedin {
   margin: 10px auto;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   background: #fff0ca;
   border-radius: 15px;
