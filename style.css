@@ -67,7 +67,8 @@ a:active {
 img {
   margin-left: 300px;
   margin-top: 50px;
-  width: 500px;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 600px) {
@@ -86,10 +87,6 @@ img {
   img {
     width: 100%;
     height: auto;
-  }
-
-  .container {
-    padding: 0 0.5rem;
   }
 }
 
