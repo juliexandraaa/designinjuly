@@ -1,6 +1,9 @@
 body {
   font-size: 15pt;
   background-color: #C4DCFF;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -11,7 +14,6 @@ h1 {
   padding-top: 20px;
   font-size: 40px;
   text-align: center;
-  box-shadow: 100px;
 }
 
 h2 {
@@ -26,24 +28,23 @@ h2 {
 .intro {
     text-align: justify;
     font-family: "tahoma";
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 5px;
+    margin: 20px auto;
     font-size: 20px;
     padding: auto;
+    width: 80%;
+    max-width: 700px;
 }
 
 .email, .insta, .whatsapp, .linkedin {
-  margin-top: 5px;
-  margin-left: 300px;
+  margin: 10px auto;
   font-size: 20px;
   text-align: left;
   background: #fff0ca;
   border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 10 px 5 px rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
   max-width: 450px;
-  max-height: 10px;
   border-top: 10px;
   border-bottom: 10px;
 }
@@ -65,27 +66,38 @@ a:active {
 }
 
 img {
-  margin-left: 300px;
-  margin-top: 50px;
-  width: 100%;
+  display: block;
+  margin: 40px auto;
+  width: 80%;
   height: auto;
+  border-radius: 10px;
 }
 
 @media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   
   h2 {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
   }
-  
-  p {
-    font-size: 0.95rem;
+
+  intro {
+    width: 90%;
+    font-size: 16px;
+  }
+
+    .email, .insta, .whatsapp, .linkedin {
+    width: 90%;
+    font-size: 16px;
+    padding: 15px;
   }
 
   img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 }
@@ -93,8 +105,6 @@ img {
 footer {
   font-family: "Times New Roman";
   text-align: center;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin: 100px auto 30px;
   font-size: 18px;
 }
